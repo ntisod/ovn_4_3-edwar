@@ -122,7 +122,7 @@ namespace SparaLasaKontakt_ovn4_2
             {
                 //Gör ett objekt av den valda kontakten
                 Kontakt k = lbxKontakter.SelectedItem as Kontakt;
-                //Skriv de olika delarna av kontakten i respektive textbox
+                //Skriv de olika delarna av kontakten i respektive textbox.
                 tbxFörnamn.Text = k.Förnamn;
                 tbxEfternamn.Text = k.Efternamn;
                 tbxEpost.Text = k.Epost;
